@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "javafest-user"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.7"
+ipykernel = "^6.29.5"
+langchain-huggingface = "^0.1.2"
+pymupdf4llm = "^0.0.17"
+langchain-text-splitters = "^0.3.2"
+termcolor = "^2.5.0"
+langchain-experimental = "^0.3.3"
+chromadb = "^0.5.18"
+pypdf = "^5.1.0"
+tqdm = "^4.67.0"
+iprogress = "^0.4"
+seaborn = "^0.13.2"
+langchain-google-genai = "^2.0.4"
+openai = "^1.54.4"
+langchain-openai = "^0.2.8"
+python-dotenv = "^1.0.1"
+ragas = "^0.2.5"
+nltk = "^3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
